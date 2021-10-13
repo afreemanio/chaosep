@@ -4,6 +4,7 @@ reverse_eng/
 node_modules/
 .github/
 garbage/
+cache/
 
 .DS_Store
 *.csv

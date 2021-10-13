@@ -1,0 +1,34 @@
+version: '3.7'
+
+services:
+    server:
+        image: server
+        build:
+            context: ./client
+            dockerfile: gatsby.Dockerfile
+
+        working_dir: /usr/src/app
+        container_name: '${COMPOSE_PROJECT_NAME}-client'
+        # env_file: ./server/.env
+        # command: gatsby develop -H 0.0.0.0 -p 8000
+        # command: ts-node node_modules/.bin/gatsby develop -H 0.0.0.0 -p 3000
+        command: npm run-script docker-develop
+        # command: ./entrypoint.sh
+        # command: npm start
+        # command: sh
+        ports:
+            - "8000:8000"
+            - "8002:8002"
+        volumes:
+            - ./client:/usr/src/app
+            - /usr/src/app/node_modules
+        environment:
+            - NODE_ENV=development
+            # - CI=true
+            - GATSBY_WEBPACK_PUBLICPATH=/
+            # - CI=true
+            - CHOKIDAR_USEPOLLING=true
+        tty: true
+
+
+

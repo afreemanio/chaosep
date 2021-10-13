@@ -1,5 +1,13 @@
-# chaosep:
+<div align="center">
 
+# chaosep
+
+<img src=".repo/icon.jpg" alt='Project banner' width='300px'>
+
+**chaosepchaosep.**
+
+<!-- ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/ottxrgxist/stag?include_prereleases) -->
+<!-- [![GitHub release (lastest by date including pre-releases)][releases-shield]][contributors-url] -->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -7,28 +15,33 @@
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-<a href='https://ko-fi.com/supportkofi' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' />
-
-
-<p align="left">
-  <p align="left">
+<!-- <a href='https://ko-fi.com/afreemanio' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' /> -->
+<p>
     <a href="https://github.com/afreemanio/chaosep/issues">Report Bug</a>
-    ·
     <a href="https://github.com/afreemanio/chaosep/issues">Request Feature</a>
+</p>
+
+<!-- <p align="left">
+  <p align="left">
+
+    ·
+
     <br />
     <br />
     chaosep web
     <br />
     <br />
   </p>
-</p>
+</p> -->
+
+</div>
 
 
 ## Content
 
 <!-- no toc -->
 
-- [chaosep:](#chaosep)
+- [chaosep](#chaosep)
   - [Content](#content)
   - [About The Project](#about-the-project)
     - [Built With](#built-with)
@@ -93,6 +106,7 @@ Distributed under and usage provided for under the MIT License. See [LICENSE][li
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
+[releases-shield]: https://img.shields.io/github/v/release/afreemanio/chaosep?include_prereleases?style=for-the-badge
 [contributors-shield]: https://img.shields.io/github/contributors/afreemanio/chaosep.svg?style=for-the-badge
 [contributors-url]: https://github.com/afreemanio/chaosep/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/afreemanio/chaosep.svg?style=for-the-badge
